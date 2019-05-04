@@ -8,13 +8,13 @@
  */
 ?>
 
-<div class="sitefooter">        
+<div class="sitefooter">
             <div class="container">
                   <div class="footerlogo"><?php bloginfo('name'); ?></div>
-                  <?php wp_nav_menu( array('theme_location' => 'footer') ); ?>                                    
+                  <?php wp_nav_menu( array('theme_location' => 'footer') ); ?>
                 <div class="clear"></div>
-           </div><!--end .container--> 
-           
+           </div><!--end .container-->
+
            <div class="copyrightwrap">
               <div class="container">
                  <div class="footercopyright">
@@ -22,12 +22,12 @@
 				       <?php printf( __( 'Theme by %s', 'photostat-lite' ), 'Grace Themes' ); ?>
                     </a>
                   </div>
-            </div><!--end .container-->  
-         </div><!--end .copyrightwrap-->     
-                                 
+            </div><!--end .container-->
+         </div><!--end .copyrightwrap-->
+
      </div><!--end #sitefooter-->
 </div><!--#end sitelayout_type-->
-
 <?php wp_footer(); ?>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

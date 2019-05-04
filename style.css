@@ -108,10 +108,10 @@ ol.comment-list li{ list-style:none; margin-bottom:5px;}
 .sitehdrmenu ul li:hover > ul{display:block; width:200px; position:absolute; left:0; text-align:left; }
 .sitehdrmenu ul li:hover ul li ul{display:none; position:relative;}
 .sitehdrmenu ul li:hover ul li:hover > ul{display:block; position:absolute; left:200px; top:0;}
-.sitehdrmenu ul li a:hover, 
+.sitehdrmenu ul li a:hover,
 .sitehdrmenu ul li.current-menu-item a,
 .sitehdrmenu ul li.current-menu-parent a.parent,
-.sitehdrmenu ul li.current-menu-item ul.sub-menu li a:hover{ color:#dd3333;} 
+.sitehdrmenu ul li.current-menu-item ul.sub-menu li a:hover{ color:#dd3333;}
 .sitehdrmenu ul li.current-menu-item ul.sub-menu li a{ color: #fff;}
 .headersliderwrap{ position:relative;}
 h2.sectiontitle{ font-weight:600; font-size:40px; margin-bottom:50px; position:relative; text-align:center;}
@@ -165,7 +165,7 @@ h2.sectiontitle{ font-weight:600; font-size:40px; margin-bottom:50px; position:r
 .blogpost_layout_style h3 a:hover{ color:#efc62c;}
 .blogpost_layout_style p{ margin-bottom:20px;}
 .blog-meta{ font-style:italic; margin-bottom:8px;}
-.post-date, .post-comment, .post-categories, .edit-link{ display:inline; color:#333; font-weight:600; text-transform:uppercase; letter-spacing:2px; font-size:13px; margin:0 10px 0 0;} 
+.post-date, .post-comment, .post-categories, .edit-link{ display:inline; color:#333; font-weight:600; text-transform:uppercase; letter-spacing:2px; font-size:13px; margin:0 10px 0 0;}
 .single_title{ margin-bottom:5px;}
 body.single-post .blogpost_layout_style .thumbnail_box{ margin-bottom:20px;}
 
@@ -280,3 +280,10 @@ h1.product_title, p.price{ margin-bottom:10px;}
 	font-size: 14px;font-size: 0.875rem;font-weight: bold;	height: auto;left: 5px;	line-height: normal;padding: 15px 23px 14px;text-decoration: none;	top: 5px;	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
 }
+
+/* Custom meta */
+.custommetakey { font-weight: bold; }
+.projet-technologies-key::before { content: ""; display: block; background-image: url(images/icone-technologies.png); background-repeat: no-repeat; background-size: 15px; width: 15px; height: 15px; float: left; margin: 5px 6px 0 0;}
+.projet-interoperabilite-key::before { content: ""; display: block; background-image: url(images/icone-interoperabilite.png); background-repeat: no-repeat; background-size: 15px; width: 15px; height: 15px; float: left; margin: 5px 6px 0 0;}
+.projet-auteurs-key::before { content: ""; display: block; background-image: url(images/icone-auteurs.png); background-repeat: no-repeat; background-size: 15px; width: 15px; height: 15px; float: left; margin: 5px 6px 0 0;}
+.projet-date-key::before { content: ""; display: block; background-image: url(images/icone-date.png); background-repeat: no-repeat; background-size: 15px; width: 15px; height: 15px; float: left; margin: 5px 6px 0 0;}
